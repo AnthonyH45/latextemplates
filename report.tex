@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{emoji}
+\usepackage{fancyhdr,minted,multicol,graphicx,hyperref,amsmath,mathtools,pdflscape,epstopdf,amssymb,forloop,titlesec,datetime2,tikz,longtable,fancyvrb,float,caption,array,booktabs,fullpage,latexsym,picinpar,amsfonts,verbatim,fancybox,}
+\usepackage[edges]{forest}
+\usetikzlibrary{shapes.geometric, arrows,graphs,arrows.meta,graphs.standard,automata,positioning,calc,arrows.meta,decorations.markings,quotes}
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{arrowl} = [thick,->,>=stealth, bend left=15]
+\tikzstyle{arrowr} = [thick,->,>=stealth, bend right=15]
+\tikzstyle{arrowll} = [thick,->,>=stealth, bend left=35]
+\tikzstyle{arrowrr} = [thick,->,>=stealth, bend right=35]
+\tikzstyle{arrowlll} = [thick,->,>=stealth, bend left=55]
+\tikzstyle{arrowrrr} = [thick,->,>=stealth, bend right=55]
+
+\usepackage[headheight=20pt, headsep=0.15in, margin=0.7in, top=1in, bottom=1in, left=1in, right=1in,]{geometry}
+
+% tells table of contents to go down 4 depth
+\setcounter{tocdepth}{4}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{ \fancyplain{}{\textbf{FIRST LAST}} }
+% {\fontspec{Symbola}\symbol{"1F950}}
+% FOR MONOCRHOME CROISSANT
+\lhead{ \fancyplain{}{\textbf{\emoji{croissant} COURSE -- PROJECT}} }
+\chead{ \fancyplain{}{\textbf{DD/MM/YYYY}} }
+\lfoot{ \textbf{{\emoji{croissant}} OPTIONAL} }
+\rfoot{ \textbf{LAST | Page \thepage}}
+\cfoot{ \fancyplain{}{\textbf{OPTIONAL}} }
+
+\begin{document}
+
+% \title{ \includegraphics[width=0.8\textwidth]{images/lbclogo.jpg} \\ \textbf{{\emoji{croissant}}  Le Bonbon Croissant} \\ Penetration Test Report}
+\title{ \textbf{{\emoji{croissant}}  Course} \\ Project \\ third line for other stuff u wanna put}
+\author{\textbf{FIRST LAST}}
+\date{DUE DATE AS DD/MM/YYYY}
+\maketitle
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{First Section}
+stuff here
+
+\subsection{First Sub}
+stuff here
+
+\subsubsection{First SubSub}
+stuff here
+
+\newpage
+\section{Second Section}
+stuff here
+
+\subsection{Second Sub}
+stuff here
+
+\subsubsection{Second SubSub}
+stuff here
+
+
+\end{document}
